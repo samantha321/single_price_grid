@@ -1,0 +1,66 @@
+.row{
+    display: flex;
+    justify-content:space-between;
+    border:1px solid rgb(151, 230, 226);
+    height:230px;
+    width: 560px;
+    margin-left: 250px;
+    color: white;
+    border-radius:5px;
+    align-self: center;
+}
+.month {    
+    border:none;
+    background:rgba(69, 194, 188, 0.993); 
+    flex: 6;
+    padding:20px;
+}
+.month >p {
+    border:none;
+    width: 150px;
+    border-radius:8px;
+    padding: 2px;
+    text-align: center;
+    margin:15px 15px;
+    background:rgb(175, 175, 29);
+}
+
+.border {
+    border:none;
+    background:rgb(40, 223, 223);
+    flex: 6;
+    padding:20px;
+}
+.holiday {
+    /* border: 1px solid rgb(202, 197, 197); */
+    width: 540px;
+    height: 160px; 
+    line-height:25px;
+    margin-left: 250px;
+    margin-top: 60px;
+    /* border-radius:8px; */
+    padding-bottom:25px;
+    padding-left:20px; 
+    background-color:white;
+
+}
+.holiday >span {
+    color: rgb(180, 180, 21);
+    padding-top:5px;
+}
+.holiday >h2 {
+    color: rgb(52, 188, 206);
+    font-size: 25px;
+}
+.holiday >P {
+    color:rgb(150, 156, 235);
+    font-size:15px;
+}
+.month >span {
+    font-size: 40px;
+}
+.editor{
+    background:rgb(191, 220, 221);
+    height:100vh;
+    border:1px solid grey;
+}
